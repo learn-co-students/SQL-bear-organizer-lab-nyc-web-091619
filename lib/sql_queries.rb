@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  'SELECT * FROM bears WHERE id = 8;'
+  'SELECT * FROM bears WHERE NAME IS NULL;'
 end
